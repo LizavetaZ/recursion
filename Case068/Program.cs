@@ -16,7 +16,7 @@ int InputValue(string message)
 
 bool IsInputValidate(int a, int b)
 {
-    if (a <= 0 || a > 3 || b <= 0)                              //очень не уверена, но по условию 0 ≤ m ≤ 3
+    if (a < 0 || a > 3 || b <= 0)                              //очень не уверена, но по условию 0 ≤ m ≤ 3
         return false;
     return true;
 }
